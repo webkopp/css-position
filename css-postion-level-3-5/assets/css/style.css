@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Montserat";
+    src: url("");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bitte erstelle anhand des vorgegebenen Designs eine Website. Ab einem gewissen Punkt ist die Navigation sticky.
+"
+Erstelle unterschiedliche hover-Effekte für die Bilder.
+ */
+
+html {
+    font-family: "";
+}
+
+body {
+    width: 1440px;
+    height: 100vh;
+    position: relative;
+    background-color: silver;
+
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "";
+    src: url("");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setze folgende Eigenschaften left: 50%; top: 50%; transform: translate(-50%, -50%); auf das Modal, um es auf der Seite zu zentrieren.
+Das Hintergrundbild kannst du frei wählen. Hier findest du freie Bilder.
+Die rote Farbe hat folgenden Wert: #F62B54.
+Benutze em Werte für die width, padding & border-radius des Modals.
+Verwende em Werte für die top und right Werte des Schließen-Buttons. */
+
+html {
+    font-family: "";
+}
+
+body {
+    width: 1440px;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+
+}

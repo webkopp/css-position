@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Monoton";
+    src: url("../fonts/Monoton-Regular.ttf");
+
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Die Höhe des <body> ist 100vh.
+Folgende Schriftarten werde genutzt: “Monoton”, “Ubuntu”.
+Die Bilder findest du in der Figma-Datei.
+Nutze die Farben #070707, #9d9f9f, #f4f7f8 und #AC8059.
+Die Social Media Icons kannst du über Font Awesome integrieren. */
+
+html {
+    font-family: "Monoton";
+}
+
+body {
+    width: 1440px;
+    height: 100vh;
+    position: relative;
+    background-color: yellowgreen;
+
+}

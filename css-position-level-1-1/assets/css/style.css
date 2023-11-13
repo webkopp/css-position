@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+
+body {
+    background: url("../img/martin-jernberg-oBX-b6ltYts-unsplash.jpg") center/cover no-repeat;
+    /* background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+main {
+    width: 100vw;
+    position: absolute;
+    right: 5rem;
+    top: 7rem;
+    border: 0.1rem solid white;
+    text-align: right;
+}
+
+div {
+    padding: 1rem;
+    margin: auto;
+}
